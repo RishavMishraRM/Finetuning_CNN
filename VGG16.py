@@ -113,4 +113,4 @@ if __name__ == '__main__':
     predictions_valid = model.predict(X_valid, batch_size=batch_size, verbose=1)
 
     # Cross-entropy loss score
-    score = log_loss(Y_valid, predictions_valid)
+    score = log_loss(Y_valid, predictions_valid) 
